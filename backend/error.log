@@ -1,0 +1,177 @@
+2024-03-28T05:41:50.698Z error: Commodity create api error: PrismaClientValidationError: 
+Invalid `prisma.commodity.create()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity.js:24:53
+
+  21 const { title, info, price } = req.body;
+  22 try {
+  23     // prisma create
+→ 24     const newCommodity = yield prisma.commodity.create({
+           data: {
+             info: undefined,
+             price: undefined,
+         +   title: String
+           }
+         })
+
+Argument `title` is missing.
+2024-03-28T05:42:33.785Z error: Commodity create api error: PrismaClientValidationError: 
+Invalid `prisma.commodity.create()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity.js:24:53
+
+  21 const { title, info, price } = req.body;
+  22 try {
+  23     // prisma create
+→ 24     const newCommodity = yield prisma.commodity.create({
+           data: {
+             info: undefined,
+             price: undefined,
+         +   title: String
+           }
+         })
+
+Argument `title` is missing.
+2024-03-28T05:43:01.535Z error: Commodity create api error: PrismaClientValidationError: 
+Invalid `prisma.commodity.create()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity.js:24:53
+
+  21 const { title, info, price } = req.body;
+  22 try {
+  23     // prisma create
+→ 24     const newCommodity = yield prisma.commodity.create({
+           data: {
+             info: undefined,
+             price: undefined,
+         +   title: String
+           }
+         })
+
+Argument `title` is missing.
+2024-03-28T05:58:38.234Z error: Commodity delete api error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2024-03-28T05:58:39.730Z error: Commodity delete api error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2024-03-29T02:29:26.319Z error: addToCard api error: PrismaClientValidationError: 
+Invalid `prisma.cart.findFirst()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:24:44
+
+  21 const { commodityId } = req.body;
+  22 try {
+  23     // commodity exist
+→ 24     const existing = yield prisma.cart.findFirst({
+           where: {
+             commodityId: "1"
+                          ~~~
+           }
+         })
+
+Argument `commodityId`: Invalid value provided. Expected IntFilter or Int, provided String.
+2024-03-29T02:31:04.326Z error: addToCard api error: PrismaClientValidationError: 
+Invalid `prisma.cart.create()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:34:43
+
+  31     res.status(400).json({ message: "commodity is exist" });
+  32 }
+  33 // create
+→ 34 const newItem = yield prisma.cart.create({
+       data: {
+         commodityId: "1",
+                      ~~~
+         quantity: 1
+       }
+     })
+
+Argument `commodityId`: Invalid value provided. Expected Int, provided String.
+2024-03-29T02:31:22.584Z error: addToCard api error: PrismaClientKnownRequestError: 
+Invalid `prisma.cart.create()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:34:43
+
+  31     res.status(400).json({ message: "commodity is exist" });
+  32 }
+  33 // create
+→ 34 const newItem = yield prisma.cart.create(
+Foreign key constraint failed on the field: `Cart_commodityId_fkey (index)`
+2024-03-29T02:39:52.493Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:58:56
+
+  55 const { id } = req.params;
+  56 const { title, info, price } = req.body;
+  57 try {
+→ 58     const updatedComodity = yield prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:39:54.376Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/src/controllers/commodity/commodity.ts:46:56
+
+  43 const { id } = req.params;
+  44 const { title, info, price } = req.body;
+  45 try {
+→ 46     const updatedComodity = await prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:40:17.460Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:58:56
+
+  55 const { id } = req.params;
+  56 const { title, info, price } = req.body;
+  57 try {
+→ 58     const updatedComodity = yield prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:40:19.066Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/src/controllers/commodity/commodity.ts:46:56
+
+  43 const { id } = req.params;
+  44 const { title, info, price } = req.body;
+  45 try {
+→ 46     const updatedComodity = await prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:40:40.495Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:58:56
+
+  55 const { id } = req.params;
+  56 const { title, info, price } = req.body;
+  57 try {
+→ 58     const updatedComodity = yield prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:40:42.283Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/src/controllers/commodity/commodity.ts:46:56
+
+  43 const { id } = req.params;
+  44 const { title, info, price } = req.body;
+  45 try {
+→ 46     const updatedComodity = await prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:53:48.217Z error: edit quantity api error: PrismaClientValidationError: 
+Invalid `prisma.cart.findFirst()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:69:44
+
+  66 var _a;
+  67 const { commodityId, action } = req.body;
+  68 try {
+→ 69     const cartItem = yield prisma.cart.findFirst({
+           where: {
+             commodityId: "1"
+                          ~~~
+           }
+         })
+
+Argument `commodityId`: Invalid value provided. Expected IntFilter or Int, provided String.
+2024-03-29T02:54:18.535Z error: edit quantity api error: PrismaClientKnownRequestError: 
+Invalid `prisma.cart.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:87:27
+
+  84     logger_1.default.error("edit quantity api error: Invalid action");
+  85     res.status(400).json({ message: "Invalid action" });
+  86 }
+→ 87 yield prisma.cart.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:54:43.901Z error: edit quantity api error: PrismaClientKnownRequestError: 
+Invalid `prisma.cart.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:87:27
+
+  84     logger_1.default.error("edit quantity api error: Invalid action");
+  85     res.status(400).json({ message: "Invalid action" });
+  86 }
+→ 87 yield prisma.cart.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.

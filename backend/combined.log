@@ -1,0 +1,350 @@
+2024-03-28T05:36:11.249Z info: backend work in 3000
+2024-03-28T05:36:27.830Z info: backend work in 3000
+2024-03-28T05:36:46.674Z info: backend work in 3000
+2024-03-28T05:37:04.384Z info: backend work in 3000
+2024-03-28T05:37:12.116Z info: backend work in 3000
+2024-03-28T05:37:22.403Z info: backend work in 3000
+2024-03-28T05:38:07.565Z info: backend work in 3000
+2024-03-28T05:38:24.285Z info: backend work in 3000
+2024-03-28T05:38:37.540Z info: backend work in 3000
+2024-03-28T05:39:17.662Z info: backend work in 3000
+2024-03-28T05:39:34.297Z info: backend work in 3000
+2024-03-28T05:39:50.989Z info: backend work in 3000
+2024-03-28T05:40:25.226Z info: backend work in 3000
+2024-03-28T05:41:24.259Z info: backend work in 3000
+2024-03-28T05:41:45.699Z info: backend work in 3000
+2024-03-28T05:41:47.984Z info: backend work in 3000
+2024-03-28T05:41:50.698Z error: Commodity create api error: PrismaClientValidationError: 
+Invalid `prisma.commodity.create()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity.js:24:53
+
+  21 const { title, info, price } = req.body;
+  22 try {
+  23     // prisma create
+→ 24     const newCommodity = yield prisma.commodity.create({
+           data: {
+             info: undefined,
+             price: undefined,
+         +   title: String
+           }
+         })
+
+Argument `title` is missing.
+2024-03-28T05:42:33.785Z error: Commodity create api error: PrismaClientValidationError: 
+Invalid `prisma.commodity.create()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity.js:24:53
+
+  21 const { title, info, price } = req.body;
+  22 try {
+  23     // prisma create
+→ 24     const newCommodity = yield prisma.commodity.create({
+           data: {
+             info: undefined,
+             price: undefined,
+         +   title: String
+           }
+         })
+
+Argument `title` is missing.
+2024-03-28T05:42:59.163Z info: backend work in 3000
+2024-03-28T05:43:01.535Z error: Commodity create api error: PrismaClientValidationError: 
+Invalid `prisma.commodity.create()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity.js:24:53
+
+  21 const { title, info, price } = req.body;
+  22 try {
+  23     // prisma create
+→ 24     const newCommodity = yield prisma.commodity.create({
+           data: {
+             info: undefined,
+             price: undefined,
+         +   title: String
+           }
+         })
+
+Argument `title` is missing.
+2024-03-28T05:45:52.972Z info: backend work in 3000
+2024-03-28T05:46:41.093Z info: Commodity create api successfully: 1
+2024-03-28T05:47:07.290Z info: Commodity findall api successfully
+2024-03-28T05:47:41.449Z info: Commodity update api successfully: 1
+2024-03-28T05:47:48.157Z info: Commodity findall api successfully
+2024-03-28T05:52:22.948Z info: backend work in 3000
+2024-03-28T05:52:34.632Z info: backend work in 3000
+2024-03-28T05:53:08.894Z info: backend work in 3000
+2024-03-28T05:53:53.587Z info: backend work in 3000
+2024-03-28T05:53:57.497Z info: backend work in 3000
+2024-03-28T05:54:00.193Z info: backend work in 3000
+2024-03-28T05:54:26.455Z info: backend work in 3000
+2024-03-28T05:54:32.531Z info: backend work in 3000
+2024-03-28T05:54:56.375Z info: backend work in 3000
+2024-03-28T05:55:02.045Z info: backend work in 3000
+2024-03-28T05:55:44.283Z info: backend work in 3000
+2024-03-28T05:56:06.159Z info: backend work in 3000
+2024-03-28T05:57:12.305Z info: backend work in 3000
+2024-03-28T05:57:15.664Z info: backend work in 3000
+2024-03-28T05:57:22.070Z info: backend work in 3000
+2024-03-28T05:57:33.424Z info: backend work in 3000
+2024-03-28T05:57:56.089Z info: backend work in 3000
+2024-03-28T05:58:01.539Z info: backend work in 3000
+2024-03-28T05:58:21.382Z info: backend work in 3000
+2024-03-28T05:58:38.187Z info: Commodity create api successfully: 2
+2024-03-28T05:58:38.226Z info: Commodity update api successfully: 1
+2024-03-28T05:58:38.232Z info: Commodity delete api successfully: 1
+2024-03-28T05:58:38.234Z error: Commodity delete api error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2024-03-28T05:58:39.689Z info: Commodity create api successfully: 3
+2024-03-28T05:58:39.723Z info: Commodity update api successfully: 1
+2024-03-28T05:58:39.728Z info: Commodity delete api successfully: 1
+2024-03-28T05:58:39.730Z error: Commodity delete api error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+2024-03-28T06:00:13.155Z info: backend work in 3000
+2024-03-28T06:00:18.496Z info: Commodity create api successfully: 4
+2024-03-28T06:00:18.518Z info: Commodity update api successfully: 1
+2024-03-28T06:00:18.524Z info: Commodity delete api successfully: 1
+2024-03-28T06:00:20.178Z info: Commodity create api successfully: 5
+2024-03-28T06:00:20.199Z info: Commodity update api successfully: 1
+2024-03-28T06:00:20.204Z info: Commodity delete api successfully: 1
+2024-03-28T06:01:51.228Z info: backend work in 3000
+2024-03-28T06:11:14.161Z info: backend work in 3000
+2024-03-28T06:11:42.002Z info: backend work in 3000
+2024-03-28T06:12:25.437Z info: backend work in 3000
+2024-03-28T06:12:29.990Z info: backend work in 3000
+2024-03-28T06:13:42.139Z info: backend work in 3000
+2024-03-28T06:13:58.241Z info: backend work in 3000
+2024-03-28T06:14:06.284Z info: backend work in 3000
+2024-03-28T06:15:00.428Z info: backend work in 3000
+2024-03-28T06:15:25.742Z info: backend work in 3000
+2024-03-28T06:17:21.835Z info: backend work in 3000
+2024-03-28T06:17:26.504Z info: backend work in 3000
+2024-03-28T06:17:43.931Z info: backend work in 3000
+2024-03-28T06:18:18.773Z info: backend work in 3000
+2024-03-28T06:18:48.285Z info: backend work in 3000
+2024-03-28T06:19:28.400Z info: backend work in 3000
+2024-03-28T06:19:29.701Z info: backend work in 3000
+2024-03-28T06:19:46.124Z info: backend work in 3000
+2024-03-28T06:20:03.486Z info: backend work in 3000
+2024-03-28T09:37:26.859Z info: backend work in 3000
+2024-03-28T09:37:57.333Z info: backend work in 3000
+2024-03-28T09:38:07.500Z info: backend work in 3000
+2024-03-28T09:38:35.725Z info: backend work in 3000
+2024-03-28T09:38:38.119Z info: backend work in 3000
+2024-03-28T09:38:46.059Z info: backend work in 3000
+2024-03-28T09:39:18.087Z info: backend work in 3000
+2024-03-28T09:39:32.212Z info: backend work in 3000
+2024-03-28T09:39:50.385Z info: backend work in 3000
+2024-03-28T09:40:41.816Z info: backend work in 3000
+2024-03-28T09:41:03.380Z info: backend work in 3000
+2024-03-28T09:43:09.131Z info: backend work in 3000
+2024-03-28T09:52:30.270Z info: backend work in 3000
+2024-03-28T09:52:51.715Z info: backend work in 3000
+2024-03-28T09:54:27.649Z info: backend work in 3000
+2024-03-28T09:56:38.510Z info: backend work in 3000
+2024-03-28T09:57:23.292Z info: backend work in 3000
+2024-03-28T09:58:21.057Z info: backend work in 3000
+2024-03-28T10:00:39.218Z info: backend work in 3000
+2024-03-28T10:01:50.137Z info: backend work in 3000
+2024-03-28T10:03:21.282Z info: backend work in 3000
+2024-03-28T10:04:21.646Z info: backend work in 3000
+2024-03-28T10:05:14.527Z info: backend work in 3000
+2024-03-28T10:06:11.465Z info: backend work in 3000
+2024-03-28T10:06:14.915Z info: backend work in 3000
+2024-03-28T10:07:55.544Z info: backend work in 3000
+2024-03-28T10:08:23.770Z info: backend work in 3000
+2024-03-28T10:09:04.422Z info: backend work in 3000
+2024-03-28T10:09:35.475Z info: backend work in 3000
+2024-03-29T01:38:33.135Z info: backend work in 3000
+2024-03-29T01:49:42.330Z info: backend work in 3000
+2024-03-29T01:49:46.653Z info: backend work in 3000
+2024-03-29T01:51:37.093Z info: backend work in 3000
+2024-03-29T01:52:58.060Z info: backend work in 3000
+2024-03-29T01:54:25.456Z info: backend work in 3000
+2024-03-29T01:56:35.968Z info: backend work in 3000
+2024-03-29T01:57:28.947Z info: backend work in 3000
+2024-03-29T02:03:09.287Z info: backend work in 3000
+2024-03-29T02:05:16.616Z info: backend work in 3000
+2024-03-29T02:06:01.120Z info: backend work in 3000
+2024-03-29T02:07:05.367Z info: backend work in 3000
+2024-03-29T02:08:23.301Z info: backend work in 3000
+2024-03-29T02:10:56.013Z info: backend work in 3000
+2024-03-29T02:11:07.210Z info: backend work in 3000
+2024-03-29T02:20:50.845Z info: backend work in 3000
+2024-03-29T02:21:13.345Z info: backend work in 3000
+2024-03-29T02:22:13.825Z info: backend work in 3000
+2024-03-29T02:23:30.934Z info: backend work in 3000
+2024-03-29T02:23:35.622Z info: backend work in 3000
+2024-03-29T02:23:51.650Z info: backend work in 3000
+2024-03-29T02:24:23.532Z info: backend work in 3000
+2024-03-29T02:24:27.827Z info: backend work in 3000
+2024-03-29T02:24:36.029Z info: backend work in 3000
+2024-03-29T02:27:01.305Z info: backend work in 3000
+2024-03-29T02:27:36.522Z info: backend work in 3000
+2024-03-29T02:28:05.444Z info: backend work in 3000
+2024-03-29T02:28:21.503Z info: backend work in 3000
+2024-03-29T02:28:41.429Z info: backend work in 3000
+2024-03-29T02:28:49.056Z info: backend work in 3000
+2024-03-29T02:28:51.713Z info: backend work in 3000
+2024-03-29T02:29:26.319Z error: addToCard api error: PrismaClientValidationError: 
+Invalid `prisma.cart.findFirst()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:24:44
+
+  21 const { commodityId } = req.body;
+  22 try {
+  23     // commodity exist
+→ 24     const existing = yield prisma.cart.findFirst({
+           where: {
+             commodityId: "1"
+                          ~~~
+           }
+         })
+
+Argument `commodityId`: Invalid value provided. Expected IntFilter or Int, provided String.
+2024-03-29T02:30:31.597Z info: backend work in 3000
+2024-03-29T02:31:04.326Z error: addToCard api error: PrismaClientValidationError: 
+Invalid `prisma.cart.create()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:34:43
+
+  31     res.status(400).json({ message: "commodity is exist" });
+  32 }
+  33 // create
+→ 34 const newItem = yield prisma.cart.create({
+       data: {
+         commodityId: "1",
+                      ~~~
+         quantity: 1
+       }
+     })
+
+Argument `commodityId`: Invalid value provided. Expected Int, provided String.
+2024-03-29T02:31:20.172Z info: backend work in 3000
+2024-03-29T02:31:22.584Z error: addToCard api error: PrismaClientKnownRequestError: 
+Invalid `prisma.cart.create()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:34:43
+
+  31     res.status(400).json({ message: "commodity is exist" });
+  32 }
+  33 // create
+→ 34 const newItem = yield prisma.cart.create(
+Foreign key constraint failed on the field: `Cart_commodityId_fkey (index)`
+2024-03-29T02:32:51.127Z info: backend work in 3000
+2024-03-29T02:32:53.192Z info: backend work in 3000
+2024-03-29T02:34:18.761Z info: backend work in 3000
+2024-03-29T02:34:20.350Z info: backend work in 3000
+2024-03-29T02:37:03.683Z info: backend work in 3000
+2024-03-29T02:37:12.003Z info: backend work in 3000
+2024-03-29T02:38:36.271Z info: backend work in 3000
+2024-03-29T02:39:52.493Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:58:56
+
+  55 const { id } = req.params;
+  56 const { title, info, price } = req.body;
+  57 try {
+→ 58     const updatedComodity = yield prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:39:52.512Z info: Commodity delete api successfully: 1
+2024-03-29T02:39:54.376Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/src/controllers/commodity/commodity.ts:46:56
+
+  43 const { id } = req.params;
+  44 const { title, info, price } = req.body;
+  45 try {
+→ 46     const updatedComodity = await prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:39:54.401Z info: Commodity delete api successfully: 1
+2024-03-29T02:40:04.867Z info: backend work in 3000
+2024-03-29T02:40:17.460Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:58:56
+
+  55 const { id } = req.params;
+  56 const { title, info, price } = req.body;
+  57 try {
+→ 58     const updatedComodity = yield prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:40:17.477Z info: Commodity delete api successfully: 1
+2024-03-29T02:40:19.066Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/src/controllers/commodity/commodity.ts:46:56
+
+  43 const { id } = req.params;
+  44 const { title, info, price } = req.body;
+  45 try {
+→ 46     const updatedComodity = await prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:40:19.093Z info: Commodity delete api successfully: 1
+2024-03-29T02:40:40.495Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:58:56
+
+  55 const { id } = req.params;
+  56 const { title, info, price } = req.body;
+  57 try {
+→ 58     const updatedComodity = yield prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:40:40.512Z info: Commodity delete api successfully: 1
+2024-03-29T02:40:42.283Z error: Commodity update api error: PrismaClientKnownRequestError: 
+Invalid `prisma.commodity.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/src/controllers/commodity/commodity.ts:46:56
+
+  43 const { id } = req.params;
+  44 const { title, info, price } = req.body;
+  45 try {
+→ 46     const updatedComodity = await prisma.commodity.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:40:42.304Z info: Commodity delete api successfully: 1
+2024-03-29T02:45:01.541Z info: backend work in 3000
+2024-03-29T02:45:11.744Z info: Commodity findall api successfully
+2024-03-29T02:45:27.630Z info: Commodity findall api successfully
+2024-03-29T02:45:54.489Z info: backend work in 3000
+2024-03-29T02:51:49.387Z info: backend work in 3000
+2024-03-29T02:51:51.764Z info: Commodity create api
+2024-03-29T02:51:51.793Z info: Commodity create api successfully: 1
+2024-03-29T02:51:58.473Z info: Commodity create api
+2024-03-29T02:51:58.503Z info: Commodity create api successfully: 2
+2024-03-29T02:51:58.535Z info: Commodity update api successfully: 1
+2024-03-29T02:51:58.541Z info: Commodity delete api successfully: 1
+2024-03-29T02:52:00.286Z info: Commodity create api
+2024-03-29T02:52:00.314Z info: Commodity create api successfully: 3
+2024-03-29T02:52:00.327Z info: Commodity update api successfully: 1
+2024-03-29T02:52:00.331Z info: Commodity delete api successfully: 1
+2024-03-29T02:52:11.403Z info: Commodity create api
+2024-03-29T02:52:11.406Z info: Commodity create api successfully: 4
+2024-03-29T02:52:17.754Z info: Commodity create api
+2024-03-29T02:52:17.757Z info: Commodity create api successfully: 5
+2024-03-29T02:53:48.217Z error: edit quantity api error: PrismaClientValidationError: 
+Invalid `prisma.cart.findFirst()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:69:44
+
+  66 var _a;
+  67 const { commodityId, action } = req.body;
+  68 try {
+→ 69     const cartItem = yield prisma.cart.findFirst({
+           where: {
+             commodityId: "1"
+                          ~~~
+           }
+         })
+
+Argument `commodityId`: Invalid value provided. Expected IntFilter or Int, provided String.
+2024-03-29T02:54:07.443Z info: backend work in 3000
+2024-03-29T02:54:16.986Z info: backend work in 3000
+2024-03-29T02:54:18.535Z error: edit quantity api error: PrismaClientKnownRequestError: 
+Invalid `prisma.cart.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:87:27
+
+  84     logger_1.default.error("edit quantity api error: Invalid action");
+  85     res.status(400).json({ message: "Invalid action" });
+  86 }
+→ 87 yield prisma.cart.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:54:43.901Z error: edit quantity api error: PrismaClientKnownRequestError: 
+Invalid `prisma.cart.update()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/cart/cart.js:87:27
+
+  84     logger_1.default.error("edit quantity api error: Invalid action");
+  85     res.status(400).json({ message: "Invalid action" });
+  86 }
+→ 87 yield prisma.cart.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-29T02:57:20.237Z info: backend work in 3000
+2024-03-29T02:57:23.282Z info: edit quantity api : 1
+2024-03-29T02:57:39.089Z info: edit quantity api : 1
