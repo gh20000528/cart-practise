@@ -16,8 +16,17 @@ export const addToCart = async (req: Request, res: Response) => {
         })
 
         if (existing) {
-            logger.error("cart api exist error")
-            res.status(400).json({ message: "commodity is exist"})
+            // exist add quantity
+            const udpateItem = await prisma.cart.update({
+                where: {
+                    id: existing.id
+                },
+                data: {
+                    quantity: existing.quantity + 1
+                }
+            })
+
+            return res.status(200).json({ message: "add quantity"})
         }
 
         // create
@@ -31,7 +40,7 @@ export const addToCart = async (req: Request, res: Response) => {
         res.status(200).json({ message: "add to cart success" })
     } catch (error) {
         logger.error(`addToCard api error: ${error}` )
-        res.status(500).json({ message: `something error ${error}` })
+        return res.status(500).json({ message: `something error ${error}` })
     }
 }
 
@@ -44,7 +53,7 @@ export const all = async (req: Request, res: Response) => {
             }
         })
 
-        res.json(200).json({ data: cart })
+        res.status(200).json({ data: cart })
     } catch (error) {
         logger.error(`cart get all api error ${error}`)
         res.status(500).json({ message: `something error ${error}` })

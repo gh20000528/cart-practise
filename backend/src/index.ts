@@ -4,6 +4,7 @@ import cookieSession from 'cookie-session';
 import { CommodityRoutes } from './routers/commodity';
 import logger from './tools/logger';
 import { CartRoutes } from './routers/cart';
+import cors from 'cors';
 
 // DO NOT WRITE
 
@@ -11,6 +12,7 @@ class Server {
     app: express.Express = express();
 
     constructor() {
+        this.app.use(cors({ origin:"*" }))
         this.app.use(bodyParser.urlencoded({ extended: true }))
         this.app.use(bodyParser.json())
         this.app.use(cookieSession({ keys: ['laskdjf'] }))

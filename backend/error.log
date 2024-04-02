@@ -175,3 +175,157 @@ Invalid `prisma.cart.update()` invocation in
   86 }
 → 87 yield prisma.cart.update(
 An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-03-31T09:46:41.386Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `host.docker.internal`:`5432`
+
+Please make sure your database server is running at `host.docker.internal`:`5432`.
+2024-03-31T09:46:41.426Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `host.docker.internal`:`5432`
+
+Please make sure your database server is running at `host.docker.internal`:`5432`.
+2024-03-31T09:46:41.457Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `host.docker.internal`:`5432`
+
+Please make sure your database server is running at `host.docker.internal`:`5432`.
+2024-03-31T09:47:51.541Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `host.docker.internal`:`5432`
+
+Please make sure your database server is running at `host.docker.internal`:`5432`.
+2024-03-31T09:47:51.594Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `host.docker.internal`:`5432`
+
+Please make sure your database server is running at `host.docker.internal`:`5432`.
+2024-03-31T09:47:51.600Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `host.docker.internal`:`5432`
+
+Please make sure your database server is running at `host.docker.internal`:`5432`.
+2024-03-31T09:49:44.466Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `locahosst`:`5432`
+
+Please make sure your database server is running at `locahosst`:`5432`.
+2024-03-31T09:49:44.523Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `locahosst`:`5432`
+
+Please make sure your database server is running at `locahosst`:`5432`.
+2024-03-31T09:49:44.529Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `locahosst`:`5432`
+
+Please make sure your database server is running at `locahosst`:`5432`.
+2024-03-31T09:49:59.908Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `locahosst`:`5432`
+
+Please make sure your database server is running at `locahosst`:`5432`.
+2024-03-31T09:49:59.918Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `locahosst`:`5432`
+
+Please make sure your database server is running at `locahosst`:`5432`.
+2024-03-31T09:50:15.457Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `locahost`:`5432`
+
+Please make sure your database server is running at `locahost`:`5432`.
+2024-03-31T09:50:15.467Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `locahost`:`5432`
+
+Please make sure your database server is running at `locahost`:`5432`.
+2024-03-31T09:50:15.474Z error: Commodity findall api error: PrismaClientInitializationError: 
+Invalid `prisma.commodity.findMany()` invocation in
+/Users/890528gh/Desktop/tools/cart/backend/build/controllers/commodity/commodity.js:44:50
+
+  41 // All commobity
+  42 const all = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+  43     try {
+→ 44         const commodity = yield prisma.commodity.findMany(
+Can't reach database server at `locahost`:`5432`
+
+Please make sure your database server is running at `locahost`:`5432`.
